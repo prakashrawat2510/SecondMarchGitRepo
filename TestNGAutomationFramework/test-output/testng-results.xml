@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Opening Browser for Execution]]>
+    </line>
+    <line>
+      <![CDATA[TestCase Successfull]]>
+    </line>
+    <line>
+      <![CDATA[Opening Browser for Execution]]>
+    </line>
+    <line>
+      <![CDATA[TestCase Successfull]]>
+    </line>
+    <line>
+      <![CDATA[Opening Browser for Execution]]>
+    </line>
+    <line>
+      <![CDATA[TestCase Successfull]]>
+    </line>
+    <line>
+      <![CDATA[Opening Browser for Execution]]>
+    </line>
+    <line>
+      <![CDATA[TestCase Successfull]]>
+    </line>
+    <line>
+      <![CDATA[Opening Browser for Execution]]>
+    </line>
+    <line>
+      <![CDATA[TestCase Successfull]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-04-15T21:21:27 IST" name="Suite" finished-at="2026-04-15T21:22:55 IST" duration-ms="87980">
+    <groups>
+      <group name="regression">
+        <method signature="BookedAppointmentTest.createAndValiDateHistory()[pri:0, instance:TestClasses.BookedAppointmentTest@73a1e9a9]" name="createAndValiDateHistory" class="TestClasses.BookedAppointmentTest"/>
+        <method signature="LoginTest.executeLogin()[pri:0, instance:TestClasses.LoginTest@409bf450]" name="executeLogin" class="TestClasses.LoginTest"/>
+        <method signature="LogoutTest.executeLogout()[pri:0, instance:TestClasses.LogoutTest@71d44a3]" name="executeLogout" class="TestClasses.LogoutTest"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="CreateNewAppointmentTest.CreateNewAppointment(java.lang.String,java.lang.String)[pri:0, instance:TestClasses.CreateNewAppointmentTest@77888435]" name="CreateNewAppointment" class="TestClasses.CreateNewAppointmentTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2026-04-15T21:21:27 IST" name="Test" finished-at="2026-04-15T21:22:55 IST" duration-ms="87980">
+      <class name="TestClasses.CreateNewAppointmentTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TestClasses.CreateNewAppointmentTest@77888435]" started-at="2026-04-15T21:21:43 IST" name="launchBrowser" finished-at="2026-04-15T21:21:48 IST" duration-ms="5321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="CreateNewAppointment(java.lang.String,java.lang.String)[pri:0, instance:TestClasses.CreateNewAppointmentTest@77888435]" started-at="2026-04-15T21:21:48 IST" name="CreateNewAppointment" data-provider="bookAppointment" finished-at="2026-04-15T21:21:57 IST" duration-ms="8471" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[22/04/2026]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ Need a Dentist for]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Opening Browser for Execution]]>
+            </line>
+            <line>
+              <![CDATA[TestCase Successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CreateNewAppointment -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestClasses.CreateNewAppointmentTest@77888435]" started-at="2026-04-15T21:21:57 IST" name="closeBrowser" finished-at="2026-04-15T21:21:59 IST" duration-ms="1838" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TestClasses.CreateNewAppointmentTest@77888435]" started-at="2026-04-15T21:21:59 IST" name="launchBrowser" finished-at="2026-04-15T21:22:04 IST" duration-ms="5153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="CreateNewAppointment(java.lang.String,java.lang.String)[pri:0, instance:TestClasses.CreateNewAppointmentTest@77888435]" started-at="2026-04-15T21:22:04 IST" name="CreateNewAppointment" data-provider="bookAppointment" finished-at="2026-04-15T21:22:11 IST" duration-ms="7704" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[25/04/2026]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Need to vist  physician]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Opening Browser for Execution]]>
+            </line>
+            <line>
+              <![CDATA[TestCase Successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CreateNewAppointment -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestClasses.CreateNewAppointmentTest@77888435]" started-at="2026-04-15T21:22:11 IST" name="closeBrowser" finished-at="2026-04-15T21:22:12 IST" duration-ms="335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestClasses.CreateNewAppointmentTest -->
+      <class name="TestClasses.LogoutTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TestClasses.LogoutTest@71d44a3]" started-at="2026-04-15T21:22:40 IST" name="launchBrowser" finished-at="2026-04-15T21:22:47 IST" duration-ms="7334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="executeLogout()[pri:0, instance:TestClasses.LogoutTest@71d44a3]" started-at="2026-04-15T21:22:47 IST" name="executeLogout" finished-at="2026-04-15T21:22:55 IST" duration-ms="7356" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Opening Browser for Execution]]>
+            </line>
+            <line>
+              <![CDATA[TestCase Successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- executeLogout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestClasses.LogoutTest@71d44a3]" started-at="2026-04-15T21:22:55 IST" name="closeBrowser" finished-at="2026-04-15T21:22:55 IST" duration-ms="356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestClasses.LogoutTest -->
+      <class name="TestClasses.LoginTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TestClasses.LoginTest@409bf450]" started-at="2026-04-15T21:21:27 IST" name="launchBrowser" finished-at="2026-04-15T21:21:34 IST" duration-ms="7158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="executeLogin()[pri:0, instance:TestClasses.LoginTest@409bf450]" started-at="2026-04-15T21:21:34 IST" name="executeLogin" finished-at="2026-04-15T21:21:42 IST" duration-ms="8103" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Opening Browser for Execution]]>
+            </line>
+            <line>
+              <![CDATA[TestCase Successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- executeLogin -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestClasses.LoginTest@409bf450]" started-at="2026-04-15T21:21:42 IST" name="closeBrowser" finished-at="2026-04-15T21:21:43 IST" duration-ms="634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestClasses.LoginTest -->
+      <class name="TestClasses.BookedAppointmentTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TestClasses.BookedAppointmentTest@73a1e9a9]" started-at="2026-04-15T21:22:12 IST" name="launchBrowser" finished-at="2026-04-15T21:22:17 IST" duration-ms="5098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="createAndValiDateHistory()[pri:0, instance:TestClasses.BookedAppointmentTest@73a1e9a9]" started-at="2026-04-15T21:22:17 IST" name="createAndValiDateHistory" finished-at="2026-04-15T21:22:40 IST" duration-ms="22662" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Opening Browser for Execution]]>
+            </line>
+            <line>
+              <![CDATA[TestCase Successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createAndValiDateHistory -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestClasses.BookedAppointmentTest@73a1e9a9]" started-at="2026-04-15T21:22:40 IST" name="closeBrowser" finished-at="2026-04-15T21:22:40 IST" duration-ms="339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestClasses.BookedAppointmentTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
